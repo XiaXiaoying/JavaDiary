@@ -3,7 +3,7 @@ package cn.nuist.day04.demo03Static;
 public class MyClass {
 
     int num; //成员变量
-    static int numStatic; //静态方法
+    static int numStatic; //静态变量
 
     //成员方法
     public void method() {

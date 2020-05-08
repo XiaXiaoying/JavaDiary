@@ -2,7 +2,7 @@ package cn.nuist.day03.demo02Anonymous;
 
 import java.util.Scanner;
 
-public class DemocracyAnonymous {
+public class Demo02Anonymous {
 
     public static void main(String[] args) {
         //普通使用方式
@@ -17,12 +17,13 @@ public class DemocracyAnonymous {
 //        Scanner sc = new Scanner(System.in);
 //        methodParam(sc);
 
-        //使用匿名对象传参
+        //使用匿名对象传参(基本类型不可以)
 //        methodParam(new Scanner(System.in));
 
         Scanner scanner = methodReturn();
         int i = scanner.nextInt();
         System.out.println("输入的是：" + i);
+
     }
 
     public static void methodParam(Scanner sc) {
