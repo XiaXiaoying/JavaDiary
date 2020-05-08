@@ -2,7 +2,7 @@ package cn.nuist.day05.demo05Override;
 
 /*
 重写(Override)
-    概念：在继承关系中，方法的名称一样，参数列表也一样
+    概念：在继承关系中，方法的名称一样，返回值、参数列表也一样
     特点：创建的是子类对象，则优先用子类方法
 
 注意事项：
@@ -18,7 +18,7 @@ package cn.nuist.day05.demo05Override;
         提示：public > protected > (default) > private
         备注：(default)不是关键字default，而是什么都不写
 
-区分重载(Overload)：方法的名称一样，参数列表【不一样】
+区分重载(Overload)：方法的名称一样，返回值一样，参数列表【不一样】
  */
 public class Demo01Override {
 
