@@ -23,7 +23,7 @@ public class Demo01ExtendsField {
         System.out.println("================");
 
         //这个方法是子类的，优先用子类的，没有向上找
-        zi.methodFather(); //200
+        zi.methodSon(); //200
         //这个方法是在父类中定义的
         zi.methodFather(); //100
     }
