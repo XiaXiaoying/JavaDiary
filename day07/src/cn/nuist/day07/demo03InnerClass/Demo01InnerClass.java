@@ -1,5 +1,4 @@
 package cn.nuist.day07.demo03InnerClass;
-
 /*
 如果一个食物的内部包含另一个事物，那么这就是一个类内部包含另一个类
 例如：身体和心脏，汽车和发动机的关系
@@ -37,6 +36,7 @@ public class Demo01InnerClass {
         //按照公式写：
         Body.Heart heart = new Body().new Heart();
         heart.beat();
+
     }
 
 }
