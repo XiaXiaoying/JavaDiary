@@ -17,6 +17,7 @@ public class Demo02Date {
     private static void demo03() {
         Date date = new Date();
         System.out.println(date.getTime());
+//        System.out.println(System.currentTimeMillis()); //和上面一条等价
     }
 
     //Date类的带参构造方法，将传入的毫秒值转换为日期

@@ -17,6 +17,7 @@ public class Demo03Objects {
 //        System.out.println(s1.equals(s2)); //NullPointerException，不能调用null对象的实例方法
 
         System.out.println(Objects.equals(s1,s2)); //false
+        System.out.println(Objects.equals(null,null)); //true
 
     }
 
