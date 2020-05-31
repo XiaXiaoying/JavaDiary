@@ -18,5 +18,4 @@ public class GenericClass<E> {
         this.name = name;
     }
 
-
 }

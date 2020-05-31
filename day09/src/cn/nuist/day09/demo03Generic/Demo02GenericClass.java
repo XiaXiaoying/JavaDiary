@@ -19,7 +19,6 @@ public class Demo02GenericClass {
         Integer name1 = i.getName();
         System.out.println(name1);
 
-
         //使用泛型String
         GenericClass<String > gc = new GenericClass<>();
         gc.setName("aaa");

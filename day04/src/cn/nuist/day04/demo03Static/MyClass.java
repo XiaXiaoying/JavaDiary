@@ -18,7 +18,6 @@ public class MyClass {
     //静态方法
     public static void methodStatic() {
         System.out.println("这是一个静态方法");
-
         //静态方法可以访问静态变量
         System.out.println(numStatic);
         //静态方法【不可以】访问成员变量

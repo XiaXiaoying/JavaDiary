@@ -48,6 +48,7 @@ public class Demo01Collection {
         System.out.println(coll.size()); //2
 
         Object[] arr = coll.toArray();
+
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " "); //abc nt
         }

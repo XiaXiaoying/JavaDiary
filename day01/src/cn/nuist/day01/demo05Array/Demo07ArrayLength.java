@@ -12,6 +12,7 @@ public class Demo07ArrayLength {
         int len = arrayB.length;
         System.out.println("数组arrayB的长度是：" + len);
         System.out.println("=======================");
+        System.out.println();
 
         int[] arrayC = new int[3];
         System.out.println(arrayC.length); //3

@@ -24,7 +24,7 @@ public class Demo02Integer {
         i1 = i1 + 2;
 
         ArrayList<Integer> list = new ArrayList<>();
-        //ArrayList集合无法直接存储证书，可以存储Integer包装类
+        //ArrayList集合无法直接存储整数，可以存储Integer包装类
         list.add(1); //自动装箱 list.add(new Integer(1));
         int a = list.get(0); //自动拆箱，list.get(0).intValue();
 

@@ -27,9 +27,9 @@ public class Demo01Math {
         System.out.println("=====================");
 
         //向下取整
-        System.out.println(Math.ceil(3.9)); //3.0
-        System.out.println(Math.ceil(3.1)); //3.0
-        System.out.println(Math.ceil(3.0)); //3.0
+        System.out.println(Math.floor(3.9)); //3.0
+        System.out.println(Math.floor(3.1)); //3.0
+        System.out.println(Math.floor(3.0)); //3.0
         System.out.println("=====================");
 
         //四舍五入

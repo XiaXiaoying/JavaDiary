@@ -19,6 +19,14 @@ public class Demo01StringEquals {
         String str2 = "Hello";
         char[] charArray = { 'H', 'e', 'l', 'l', 'o' };
         String str3 = new String(charArray);
+        String str4 = new String("Hello");
+
+        System.out.println(str1 == str2); // true，在字符串常量池中是同一个对象
+        System.out.println(str1 == str3); // false，new出来的不在字符串常量池中
+        System.out.println(str1 == str4); // false
+        System.out.println(str3 == str4); // false
+        System.out.println("==========================");
+
 
         System.out.println(str1.equals(str2)); //true
         System.out.println(str2.equals(str3)); //true

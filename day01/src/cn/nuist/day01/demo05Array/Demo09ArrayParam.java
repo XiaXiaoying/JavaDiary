@@ -7,6 +7,7 @@ public class Demo09ArrayParam {
 
         int[] array = { 10, 20, 30, 40, 50 };
         printArray(array);
+
     }
 
     public static void printArray(int[] array) {
